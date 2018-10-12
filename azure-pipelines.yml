@@ -26,4 +26,5 @@ steps:
     awesome_bot a1/i18n/zh-CN.md  --allow-dupe --white-list $whitelist
     awesome_bot a2/README.md      --allow-dupe --white-list $whitelist
     awesome_bot a2/notes.md       --allow-dupe --white-list $whitelist
+  failOnStderr: true
   displayName: 'Validate hyperlinks'
