@@ -8,7 +8,7 @@ steps:
 
 - script: |
     gem install awesome_bot
-    whitelist=jpapa.me,johnpapa.net
+    whitelist=jpapa.me
     awesome_bot README.md         --allow-dupe --white-list $whitelist
     awesome_bot a1/README.md      --allow-dupe --white-list $whitelist
     awesome_bot a1/i18n/README.md --allow-dupe --white-list $whitelist
