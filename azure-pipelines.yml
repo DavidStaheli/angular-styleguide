@@ -8,7 +8,7 @@ steps:
 
 - script: |
     gem install awesome_bot
-    whitelist=dev.azure.com,jpapa.me
+    whitelist=dev.azure.com,jpapa.me,johnpapa.net
     awesome_bot --skip-save-results --allow-dupe --white-list $whitelist `find . -name "*.md"`
   failOnStderr: true
   displayName: 'Validate hyperlinks'
